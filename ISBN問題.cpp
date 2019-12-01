@@ -3,6 +3,7 @@ using namespace std;
 int main() {
     
     long long ISBN;
+    //為了使陣列索引和每一位數一致，所以多宣告一個陣列空間
     long long digitalISBN[11];
     cout << "請輸入十位數";
     cin >> ISBN;
